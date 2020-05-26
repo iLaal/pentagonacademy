@@ -1,0 +1,18 @@
+.staff{
+    margin-top: 0.5rem;
+    background: #e5e5e549;
+}
+
+.cardStaff{
+    margin-top: 0.5rem;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.cardStaff .card{
+    margin-bottom: 1rem;
+    margin-left: 6rem;
+    width: 380px;
+    text-align: center;
+}

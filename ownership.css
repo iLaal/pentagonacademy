@@ -1,0 +1,42 @@
+.leaderShip{
+    margin-top: 0.2rem;
+    background: var(--light);
+}
+
+.teacherCards .card{
+    width: 500px;
+    background: var(--medium-light);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.teacherCards{
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacherCards .card, .teacherCards .card img{
+    box-shadow: var(--shadow-light);
+}
+
+.icon-shadow{
+    box-shadow: var(--shadow-light);
+    border-radius: 5px;
+    padding: 0.5rem 0.2rem;
+}
+
+.card-title{
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.card-text{
+    font-family: 'DM Mono';
+    font-size: 12px;
+}
