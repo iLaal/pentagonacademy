@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.galleryContainer h3::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  box-shadow: var(--shadow);
+  background: var(--primary);
+  width: 660px;
+  height: 2px;
+}
+
+.galleryContainer h3 {
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.5rem 0rem;
+  font-weight: 500;
+  text-shadow: 0px 1px 2px rgba(110, 110, 110, 0.979);
+}
+.galleryContainer h4 {
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.6rem 0rem;
+  text-shadow: 0px 1px 2px rgba(110, 110, 110, 0.979);
+}
+
+.galleryContainer .row {
+  display: flex;
+  justify-content: center;
+}
+
+.imageGallery {
+  max-width: 400px;
+  margin: 0.5rem 0.2rem;
+}
+
+.imageGallery img {
+  max-width: 100%;
+  box-shadow: var(--shadow);
+  border: 1px solid rgb(110, 110, 110);
+}
